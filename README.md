@@ -61,9 +61,13 @@ This phase creates security groups to support scalable policy targeting and priv
 
 <img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/e29fa689e4fc1fa303b6133090e3467f4088e2f9/screenshots/Step%201.3.png">
 
+Ensure this is selected for the G-Admin group ("Azure AD roles can be assigned to the group"). Use role-assignable groups for admin access so roles are granted through group membership rather than directly to users. It simplifies auditing, supports least privilege, and integrates cleanly with PIM.
+
 <img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/e29fa689e4fc1fa303b6133090e3467f4088e2f9/screenshots/Step%201.4.png">
 
 <img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/e29fa689e4fc1fa303b6133090e3467f4088e2f9/screenshots/Step%201.5.png">
+
+This should be created in Entra.
 
 ---
 
