@@ -1,0 +1,16 @@
+/README.md
+/diagrams/architecture.png
+/screenshots/
+/policies/
+  Intune-Compliance-Policy.md
+  Intune-BitLocker-Policy.md
+  Intune-ASR-Policy.md
+  Intune-LAPS-Policy.md
+  CA-Require-MFA.md
+  CA-Require-Compliant-Device.md
+  CA-Admins-Strict.md
+/evidence/
+  signin-logs.md
+  device-compliance.md
+/misc/
+  demo-script.md
