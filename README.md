@@ -13,8 +13,8 @@ _**Completion State:**_ a formal device security baseline is enforced (BitLocker
 # Technology Utilized
 - Microsoft Intune (device management + compliance)
 - Microsoft Entra ID / Azure AD (Conditional Access + identity control plane)
-- Microsoft Defender (endpoint security signals, ASR rules)
-- Windows 11 VM (repeatable test device)
+- Microsoft Defender (Endpoint security, Firewall, ASR rules)
+- Windows 11 VM 
 
 ---
 
@@ -270,7 +270,7 @@ This section consolidates proof of enforcement and auditability:
 
 ## Enforce Firewall
 
-If you want to ensure Firewall is pushed via Endpoint Security, you have that option to ensure compliance across the organization.
+If you want to ensure the Firewall is pushed via Endpoint Security, you have that option to ensure compliance across the organization.
 
 <img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/de099cab51514efb2cd21c63c7e8c834f3329adc/screenshots/Step%209.1.png">
 
