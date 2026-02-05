@@ -224,20 +224,36 @@ Conditional Access is implemented to enforce MFA and require compliant devices f
 This phase demonstrates the business value of the architecture:
 
 **Demo A: Noncompliant Device Blocked**
-- Device is forced Noncompliant (BitLocker disabled or compliance requirement changed)
+- Device is forced Noncompliant (Firewall is disabled)
 - Attempt access to `portal.office.com`
 - Access is blocked due to CA policy requiring compliance
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/6982f7013bde85c4ceb8f74e9c6db5927c7064e4/screenshots/Step%208.1.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/6982f7013bde85c4ceb8f74e9c6db5927c7064e4/screenshots/Step%208.2.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/6982f7013bde85c4ceb8f74e9c6db5927c7064e4/screenshots/Step%208.3.png">
 
 **Demo B: Compliant Device Allowed**
 - Device remediated and becomes Compliant
 - Same sign-in attempt succeeds
 - Entra sign-in logs show CA success
 
-**Deliverables:**
-- Screenshot: blocked sign-in screen
-- Screenshot: sign-in logs showing CA failure reason
-- Screenshot: successful sign-in
-- Screenshot: sign-in logs showing CA success
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/6982f7013bde85c4ceb8f74e9c6db5927c7064e4/screenshots/Step%208.4.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/6982f7013bde85c4ceb8f74e9c6db5927c7064e4/screenshots/Step%208.5.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/6982f7013bde85c4ceb8f74e9c6db5927c7064e4/screenshots/Step%208.6.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/6982f7013bde85c4ceb8f74e9c6db5927c7064e4/screenshots/Step%208.7.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/6982f7013bde85c4ceb8f74e9c6db5927c7064e4/screenshots/Step%208.8.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/6982f7013bde85c4ceb8f74e9c6db5927c7064e4/screenshots/Step%208.9.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/6982f7013bde85c4ceb8f74e9c6db5927c7064e4/screenshots/Step%208.10.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/6982f7013bde85c4ceb8f74e9c6db5927c7064e4/screenshots/Step%208.11.png">
 
 ---
 
@@ -248,8 +264,15 @@ This section consolidates proof of enforcement and auditability:
 - Compliance state reporting
 - Device encryption and LAPS escrow evidence
 
-[Sign-In Log Evidence](evidence/signin-logs.md)  
-[Device Compliance Evidence](evidence/device-compliance.md)
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/de099cab51514efb2cd21c63c7e8c834f3329adc/screenshots/Audit%20Logs.png">
+
+---
+
+## Enforce Firewall
+
+If you want to ensure Firewall is pushed via Endpoint Security, you have that option to ensure compliance across the organization.
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/de099cab51514efb2cd21c63c7e8c834f3329adc/screenshots/Step%209.1.png">
 
 ---
 
