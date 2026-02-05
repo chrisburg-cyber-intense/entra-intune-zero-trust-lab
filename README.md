@@ -171,7 +171,7 @@ Windows LAPS is configured to automatically manage the local Administrator accou
 
 ---
 
-## Step 7: Conditional Access Policies (The Payoff)
+## Step 7: Conditional Access Policies
 
 Conditional Access is implemented to enforce MFA and require compliant devices for access to sensitive applications. Break-glass exclusion is used to prevent administrative lockout.
 
@@ -180,6 +180,14 @@ Conditional Access is implemented to enforce MFA and require compliant devices f
 - Excludes break-glass group
 - Requires MFA
 
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/f2bff2b76db8c6e4c5692ea44ef91a19d8fddaad/screenshots/Step%207.1.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/f2bff2b76db8c6e4c5692ea44ef91a19d8fddaad/screenshots/Step%207.2.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/f2bff2b76db8c6e4c5692ea44ef91a19d8fddaad/screenshots/Step%207.3.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/f2bff2b76db8c6e4c5692ea44ef91a19d8fddaad/screenshots/Step%207.4.png">
+
 [CA Policy 1 Notes](policies/CA-Require-MFA.md)
 
 ### Policy 2: Require Compliant Device (Office 365)
@@ -187,17 +195,27 @@ Conditional Access is implemented to enforce MFA and require compliant devices f
 - Excludes break-glass group
 - Requires device to be marked compliant
 
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/f2bff2b76db8c6e4c5692ea44ef91a19d8fddaad/screenshots/Step%207.5.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/f2bff2b76db8c6e4c5692ea44ef91a19d8fddaad/screenshots/Step%207.6.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/f2bff2b76db8c6e4c5692ea44ef91a19d8fddaad/screenshots/Step%207.7.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/f2bff2b76db8c6e4c5692ea44ef91a19d8fddaad/screenshots/Step%207.8.png">
+
 [CA Policy 2 Notes](policies/CA-Require-Compliant-Device.md)
 
 ### Policy 3: Admin Strict Policy
 - Applies to admin group
 - Requires MFA + compliant device (and stronger auth if available)
 
-[CA Policy 3 Notes](policies/CA-Admins-Strict.md)
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/f2bff2b76db8c6e4c5692ea44ef91a19d8fddaad/screenshots/Step%207.9.png">
 
-**Deliverables:**
-- Screenshots of each CA policy
-- Sign-in logs showing policies evaluated and enforced
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/f2bff2b76db8c6e4c5692ea44ef91a19d8fddaad/screenshots/Step%207.10.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/f2bff2b76db8c6e4c5692ea44ef91a19d8fddaad/screenshots/Step%207.11.png">
+
+[CA Policy 3 Notes](policies/CA-Admins-Strict.md)
 
 ---
 
