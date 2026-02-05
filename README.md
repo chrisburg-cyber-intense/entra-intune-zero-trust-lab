@@ -15,7 +15,6 @@ _**Completion State:**_ a formal device security baseline is enforced (BitLocker
 - Microsoft Entra ID / Azure AD (Conditional Access + identity control plane)
 - Microsoft Defender (endpoint security signals, ASR rules)
 - Windows 11 VM (repeatable test device)
-- PowerShell (validation & troubleshooting)
 
 ---
 
