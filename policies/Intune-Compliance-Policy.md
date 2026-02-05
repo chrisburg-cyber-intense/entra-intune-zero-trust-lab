@@ -21,7 +21,7 @@ Compliance status is used by Microsoft Entra Conditional Access to control acces
 | TPM | Required |
 | Firewall | Enabled |
 | Minimum OS Version | 10.0.22000.0 |
-| Defender Antimalware | Enabled (if available) |
+| Defender Antimalware | Enabled |
 
 ---
 
