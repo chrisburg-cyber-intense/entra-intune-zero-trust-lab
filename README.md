@@ -8,7 +8,7 @@ _**Completion State:**_ a formal device security baseline is enforced (BitLocker
 
 ---
 
-<img width="1000" alt="image" src="PASTE-YOUR-DIAGRAM-IMAGE-LINK-HERE">
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/d0bf78ac6fa2171ff8500371d31f5cebf211c665/diagrams/architecture.png">
 
 # Technology Utilized
 - Microsoft Intune (device management + compliance)
