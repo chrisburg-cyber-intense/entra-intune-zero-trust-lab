@@ -43,7 +43,7 @@ This phase establishes a dedicated lab tenant to safely enforce strict security 
 - `lab.admin1` (privileged admin user)
 - `lab.breakglass` (emergency access account)
 
-(https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/efc223cb3f71df9c5d47f4a4120176a29bf66241/screenshots/Step%201.1.png)
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/efc223cb3f71df9c5d47f4a4120176a29bf66241/screenshots/Step%201.1.png">
 
 ---
 
