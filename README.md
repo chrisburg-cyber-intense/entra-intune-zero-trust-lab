@@ -4,7 +4,7 @@ In this project, we simulate building a scalable, enterprise-style Zero Trust ac
 
 _**Inception State:**_ the organization has no device compliance baseline, no enforced encryption, and no Conditional Access guardrails.
 
-_**Completion State:**_ a formal device security baseline is enforced (BitLocker + ASR + LAPS), Intune compliance is measured, and Conditional Access blocks access to sensitive apps unless the device is compliant (with break-glass protections in place).
+_**Completion State:**_ a formal device security baseline is enforced (BitLocker + Firewall + ASR + LAPS), Intune compliance is measured, and Conditional Access blocks access to sensitive apps unless the device is compliant (with break-glass protections in place).
 
 ---
 
@@ -13,7 +13,7 @@ _**Completion State:**_ a formal device security baseline is enforced (BitLocker
 # Technology Utilized
 - Microsoft Intune (device management + compliance)
 - Microsoft Entra ID / Azure AD (Conditional Access + identity control plane)
-- Microsoft Defender (Endpoint security, Firewall, ASR rules)
+- Microsoft Defender (Endpoint security, Encryption, Firewall, ASR rules)
 - Windows 11 VM 
 
 ---
