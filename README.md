@@ -79,8 +79,9 @@ This phase configures Intune so users in scope automatically enroll devices. The
 - Intune confirmed as MDM authority
 - Automatic enrollment enabled for `G-Users-Standard` and `G-Admins`
 
-**Deliverables:**
-- Screenshot of automatic enrollment configuration
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/953b911c3d3676fb98ee88b15b5f3f01ce00cd26/screenshots/Step%203.1.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/953b911c3d3676fb98ee88b15b5f3f01ce00cd26/screenshots/Step%203.2.png">
 
 ---
 
@@ -93,10 +94,11 @@ A Windows 11 VM is enrolled to simulate a repeatable enterprise endpoint. Enroll
 - Device appears in Entra Devices
 - Device is a member of `DG-Windows-Intune-Managed`
 
-**Deliverables:**
-- Screenshot: device record in Intune
-- Screenshot: device record in Entra ID
-- Screenshot: group membership confirmation
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/953b911c3d3676fb98ee88b15b5f3f01ce00cd26/screenshots/Step%204.1.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/953b911c3d3676fb98ee88b15b5f3f01ce00cd26/screenshots/Step%204.2.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/953b911c3d3676fb98ee88b15b5f3f01ce00cd26/screenshots/Step%204.3.png">
 
 ---
 
@@ -106,13 +108,20 @@ A compliance policy is implemented to establish a measurable â€œtrusted deviceâ€
 
 **Compliance Requirements:**
 - BitLocker required
+- Firewall required
 - Secure Boot required
 - TPM required
 - Minimum OS version: `10.0.22000.0`
 
-**Deliverables:**
-- Screenshot: compliance policy settings
-- Screenshot: device compliance report (Compliant/Noncompliant)
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/953b911c3d3676fb98ee88b15b5f3f01ce00cd26/screenshots/Step%205.1.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/953b911c3d3676fb98ee88b15b5f3f01ce00cd26/screenshots/Step%205.2.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/953b911c3d3676fb98ee88b15b5f3f01ce00cd26/screenshots/Step%205.3.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/953b911c3d3676fb98ee88b15b5f3f01ce00cd26/screenshots/Step%205.4.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/953b911c3d3676fb98ee88b15b5f3f01ce00cd26/screenshots/Step%205.5.png">
 
 [Compliance Policy Notes](policies/Intune-Compliance-Policy.md)
 
