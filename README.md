@@ -135,21 +135,39 @@ This phase enforces endpoint hardening controls that reduce attack surface and i
 - Enforces encryption on OS drive
 - Stores recovery keys in Entra ID
 
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/fec6c1a513701407780b0984cc6f3d606817d4c5/screenshots/Step%206.1.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/fec6c1a513701407780b0984cc6f3d606817d4c5/screenshots/Step%206.2.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/fec6c1a513701407780b0984cc6f3d606817d4c5/screenshots/Step%206.3.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/fec6c1a513701407780b0984cc6f3d606817d4c5/screenshots/Step%206.4.png">
+
 [BitLocker Policy Notes](policies/Intune-BitLocker-Policy.md)
 
 ### Step 6B: Defender Attack Surface Reduction (ASR)
 A small, high-value set of ASR rules is enabled to disrupt common enterprise attack chains (phishing → macro abuse → payload execution → credential theft).
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/fec6c1a513701407780b0984cc6f3d606817d4c5/screenshots/Step%206.5.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/fec6c1a513701407780b0984cc6f3d606817d4c5/screenshots/Step%206.6.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/fec6c1a513701407780b0984cc6f3d606817d4c5/screenshots/Step%206.7.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/fec6c1a513701407780b0984cc6f3d606817d4c5/screenshots/Step%206.8.png">
 
 [ASR Policy Notes](policies/Intune-ASR-Policy.md)
 
 ### Step 6C: Local Admin Password Management (Windows LAPS)
 Windows LAPS is configured to automatically manage the local Administrator account and escrow credentials securely in Entra ID, reducing lateral movement risk from shared local admin passwords.
 
-[LAPS Policy Notes](policies/Intune-LAPS-Policy.md)
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/fec6c1a513701407780b0984cc6f3d606817d4c5/screenshots/Step%206.9.png">
 
-**Deliverables:**
-- Screenshots of each policy
-- Screenshot of BitLocker recovery key / LAPS password visible in Entra device record
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/fec6c1a513701407780b0984cc6f3d606817d4c5/screenshots/Step%206.10.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/fec6c1a513701407780b0984cc6f3d606817d4c5/screenshots/Step%206.11.png">
+
+[LAPS Policy Notes](policies/Intune-LAPS-Policy.md)
 
 ---
 
