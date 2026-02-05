@@ -57,9 +57,13 @@ This phase creates security groups to support scalable policy targeting and priv
 - `G-BreakGlass-Exclude` (Security group, Assigned)
 - `DG-Windows-Intune-Managed` (Security group, **Dynamic device**)
 
-**Deliverables:**
-- Screenshots of group settings + dynamic device query
-- Brief notes on why each group exists
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/e29fa689e4fc1fa303b6133090e3467f4088e2f9/screenshots/Step%201.2.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/e29fa689e4fc1fa303b6133090e3467f4088e2f9/screenshots/Step%201.3.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/e29fa689e4fc1fa303b6133090e3467f4088e2f9/screenshots/Step%201.4.png">
+
+<img width="1000" alt="image" src="https://github.com/chrisburg-cyber-intense/entra-intune-zero-trust-lab/blob/e29fa689e4fc1fa303b6133090e3467f4088e2f9/screenshots/Step%201.5.png">
 
 ---
 
